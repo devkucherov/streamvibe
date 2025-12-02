@@ -49,7 +49,7 @@
   translate: 0 -50%;
 }
 
-@mixin square ($size) {
+@mixin square($size) {
   width: $size;
   height: $size;
 }

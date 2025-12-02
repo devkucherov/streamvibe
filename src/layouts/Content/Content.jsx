@@ -1,10 +1,10 @@
-import './Content'
+import './Content.scss'
 
 const Content = (props) => {
-  const  { children } = props
+  const { children } = props
 
   return (
-    <main className="contetn">
+    <main className="content">
       {children}
     </main>
   )
