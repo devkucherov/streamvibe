@@ -1,30 +1,38 @@
 import './Button.scss'
 import classNames from 'classnames'
-import Icon from "@/components/Icon";
+import Icon from '@/components/Icon'
 
 const Button = (props) => {
   const {
+    className,
     type = 'button',
     href,
     target,
+    /**
+     * '' (default) | 'transparent' | 'black-10'
+     */
     mode = '',
-    className,
     label,
     isLabelHidden = false,
     iconName,
+    /**
+     * 'before' | 'after'
+     */
     iconPosition = 'before',
+    hasFillIcon,
   } = props
 
   const isLink = href !== undefined
   const Component = isLink ? 'a' : 'button'
   const linkProps = { href, target }
-  const buttonProps = {type}
+  const buttonProps = { type }
   const specificProps = isLink ? linkProps : buttonProps
   const title = isLabelHidden ? label : undefined
   const iconComponent = iconName && (
     <Icon
       className="button__icon"
       name={iconName}
+      hasFill={hasFillIcon}
     />
   )
 
