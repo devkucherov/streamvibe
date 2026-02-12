@@ -6,6 +6,7 @@ import getTabsElementsIdsFromTitle from "@/components/Tabs/utils/getTabsElements
 const TabsNavigation = (props) => {
   const {
     className,
+    id,
     title,
     items = [],
   } = props
@@ -16,9 +17,9 @@ const TabsNavigation = (props) => {
   return (
     <div
       className={classNames(className, 'tabs-navigation')}
-      id="id"
+      id={id}
       role="tablist"
-      aria-labelledby="titleId"
+      aria-labelledby={titleId}
       data-js-tabs-navigation=""
     >
       <h3
