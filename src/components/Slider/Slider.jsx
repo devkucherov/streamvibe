@@ -30,7 +30,7 @@ const defaultSliderParams = {
     1441: {
       spaceBetween: 30,
       allowTouchMove: false,
-    }
+    },
   }
 }
 
