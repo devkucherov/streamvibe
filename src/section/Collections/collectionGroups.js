@@ -182,7 +182,7 @@ const collectionGroups = [
           spaceBetween: 30,
           breakpoints: {
             0: {
-              slidesPerView: 1.6,
+              slidesPerView: 1.58,
               slidesPerGroup: 1,
               spaceBetween: 20,
             },
@@ -205,8 +205,445 @@ const collectionGroups = [
               allowTouchMove: false,
             },
           }
-        }
-      }
+        },
+      },
+      {
+        title: 'Trending Now',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 57min',
+            views: '1.5K',
+          },
+          {
+            title: 'Suraj PE',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '2h 10min',
+            views: '1.8K',
+          },
+          {
+            title: 'Pathan',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '2h 20min',
+            views: '3K',
+          },
+          {
+            title: 'ANT-MAN',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 42min',
+            views: '6K',
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 57min',
+            views: '1.5K',
+          },
+          {
+            title: 'Suraj PE',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '2h 10min',
+            views: '1.8K',
+          },
+          {
+            title: 'Pathan',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '2h 20min',
+            views: '3K',
+          },
+          {
+            title: 'ANT-MAN',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 42min',
+            views: '6K',
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 57min',
+            views: '1.5K',
+          },
+          {
+            title: 'Suraj PE',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '2h 10min',
+            views: '1.8K',
+          },
+          {
+            title: 'Pathan',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '2h 20min',
+            views: '3K',
+          },
+          {
+            title: 'ANT-MAN',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 42min',
+            views: '6K',
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 57min',
+            views: '1.5K',
+          },
+          {
+            title: 'Suraj PE',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '2h 10min',
+            views: '1.8K',
+          },
+          {
+            title: 'Pathan',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '2h 20min',
+            views: '3K',
+          },
+          {
+            title: 'ANT-MAN',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 42min',
+            views: '6K',
+          },
+        ],
+      },
+      {
+        title: 'New Releases',
+        movieItems: [
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/released/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Movie 2',
+            imgSrc: '/src/assets/images/released/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Sin Sity',
+            imgSrc: '/src/assets/images/released/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'The Tomorrow War',
+            imgSrc: '/src/assets/images/released/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Misfire',
+            imgSrc: '/src/assets/images/released/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/released/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Movie 2',
+            imgSrc: '/src/assets/images/released/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Sin Sity',
+            imgSrc: '/src/assets/images/released/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'The Tomorrow War',
+            imgSrc: '/src/assets/images/released/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Misfire',
+            imgSrc: '/src/assets/images/released/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/released/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Movie 2',
+            imgSrc: '/src/assets/images/released/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Sin Sity',
+            imgSrc: '/src/assets/images/released/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'The Tomorrow War',
+            imgSrc: '/src/assets/images/released/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Misfire',
+            imgSrc: '/src/assets/images/released/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+        ],
+      },
+      {
+        title: 'Must - Watch Movies',
+        movieItems: [
+          {
+            title: 'Kantara',
+            imgSrc: '/src/assets/images/must-watch/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            }
+          },
+          {
+            title: 'Pushpa 2',
+            imgSrc: '/src/assets/images/must-watch/2.jpg',
+            duration: '1h 30min',
+            rating: {
+              value: 4.5,
+              label: '29k',
+            }
+          },
+          {
+            title: 'Blade Runner',
+            imgSrc: '/src/assets/images/must-watch/3.jpg',
+            duration: '1h 40min',
+            rating: {
+              value: 5.0,
+              label: '110k',
+            }
+          },
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/must-watch/4.jpg',
+            duration: '2h 31min',
+            rating: {
+              value: 4.0,
+              label: '10k',
+            }
+          },
+
+          {
+            title: 'Kantara',
+            imgSrc: '/src/assets/images/must-watch/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            }
+          },
+          {
+            title: 'Pushpa 2',
+            imgSrc: '/src/assets/images/must-watch/2.jpg',
+            duration: '1h 30min',
+            rating: {
+              value: 4.5,
+              label: '29k',
+            }
+          },
+          {
+            title: 'Blade Runner',
+            imgSrc: '/src/assets/images/must-watch/3.jpg',
+            duration: '1h 40min',
+            rating: {
+              value: 5,
+              label: '110k',
+            }
+          },
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/must-watch/4.jpg',
+            duration: '2h 31min',
+            rating: {
+              value: 4.0,
+              label: '10k',
+            }
+          },
+
+          {
+            title: 'Kantara',
+            imgSrc: '/src/assets/images/must-watch/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            }
+          },
+          {
+            title: 'Pushpa 2',
+            imgSrc: '/src/assets/images/must-watch/2.jpg',
+            duration: '1h 30min',
+            rating: {
+              value: 4.5,
+              label: '29k',
+            }
+          },
+          {
+            title: 'Blade Runner',
+            imgSrc: '/src/assets/images/must-watch/3.jpg',
+            duration: '1h 40min',
+            rating: {
+              value: 5,
+              label: '110k',
+            }
+          },
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/must-watch/4.jpg',
+            duration: '2h 31min',
+            rating: {
+              value: 4.0,
+              label: '10k',
+            }
+          },
+
+          {
+            title: 'Kantara',
+            imgSrc: '/src/assets/images/must-watch/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20k',
+            }
+          },
+          {
+            title: 'Pushpa 2',
+            imgSrc: '/src/assets/images/must-watch/2.jpg',
+            duration: '1h 30min',
+            rating: {
+              value: 4.5,
+              label: '29k',
+            }
+          },
+          {
+            title: 'Blade Runner',
+            imgSrc: '/src/assets/images/must-watch/3.jpg',
+            duration: '1h 40min',
+            rating: {
+              value: 5,
+              label: '110k',
+            }
+          },
+          {
+            title: 'Adipurish',
+            imgSrc: '/src/assets/images/must-watch/4.jpg',
+            duration: '2h 31min',
+            rating: {
+              value: 4.0,
+              label: '10k',
+            }
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4,
+          slidesPerGroup: 4,
+          spaceBetween: 30,
+          breakpoints: {
+            0: {
+              slidesPerView: 1.58,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          }
+        },
+      },
     ],
   }
 ]

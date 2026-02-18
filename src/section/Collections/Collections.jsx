@@ -6,6 +6,7 @@ import Section from "@/layouts/Section";
 import SliderNavigation from "@/components/Slider/components/SliderNavigation";
 import Slider from "@/components/Slider";
 import CategoryCard from "@/components/CategoryCard";
+import MovieCard from "@/components/MovieCard";
 
 const Collections = () => {
 
@@ -19,13 +20,14 @@ const Collections = () => {
         title: collectionGroup.title,
         children: (
           <div className="collections__group">
-            <p className="collection__title hidden-mobile">
+            <p className="collections__title hidden-mobile">
               {collectionGroup.title}
             </p>
             {collectionGroup.items.map((collectionItem, index) => {
               const {
                 title,
                 categoryItems,
+                movieItems,
                 sliderParams,
               } = collectionItem
 
@@ -52,11 +54,10 @@ const Collections = () => {
                     navigationTargetElementId={sliderNavigationId}
                     isBeyondTheViewportOnMobileS
                   >
-                    {categoryItems.map((categoryItem, index) => (
-                      <CategoryCard
-                        {...categoryItem}
-                        key={index}
-                      />
+                    {categoryItems?.map((categoryItem, index) => (
+                      <CategoryCard {...categoryItem} key={index} />
+                    )) ?? movieItems?.map((movieItem,  index) => (
+                      <MovieCard {...movieItem} key={index} />
                     ))}
                   </Slider>
                 </Section>
