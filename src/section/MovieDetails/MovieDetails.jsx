@@ -45,9 +45,67 @@ const MovieDetails = () => {
       imgSrc: '/src/assets/images/people/cast_8.jpg',
       imgAlt: 'Samir Nazari',
     },
+
+    {
+      imgSrc: '/src/assets/images/people/cast_1.jpg',
+      imgAlt: 'Ahmad Mansour',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_2.jpg',
+      imgAlt: 'Yousef Al-Fayegh',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_3.jpg',
+      imgAlt: 'Yousef Al-Fayegh',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_4.jpg',
+      imgAlt: 'Fatima Haddad',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_5.jpg',
+      imgAlt: 'Amira Hassan',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_6.jpg',
+      imgAlt: 'Omar Khatib',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_7.jpg',
+      imgAlt: 'Tariq Al-Rashidi',
+    },
+    {
+      imgSrc: '/src/assets/images/people/cast_8.jpg',
+      imgAlt: 'Samir Nazari',
+    },
   ]
 
   const reviewItems = [
+    {
+      name: 'Aniket Roy',
+      subtitle: 'From India',
+      description: 'This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.',
+      ratingValue: 4.5,
+    },
+    {
+      name: 'Swaraj',
+      subtitle: 'From India',
+      description: 'A restless king promises his lands to the local tribals in exchange of a stone (Panjurli, a deity of Keradi Village) wherein he finds solace and peace of mind.',
+      ratingValue: 5,
+    },
+    {
+      name: 'Aniket Roy',
+      subtitle: 'From India',
+      description: 'This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.',
+      ratingValue: 4.5,
+    },
+    {
+      name: 'Swaraj',
+      subtitle: 'From India',
+      description: 'A restless king promises his lands to the local tribals in exchange of a stone (Panjurli, a deity of Keradi Village) wherein he finds solace and peace of mind.',
+      ratingValue: 5,
+    },
+
     {
       name: 'Aniket Roy',
       subtitle: 'From India',
@@ -82,8 +140,8 @@ const MovieDetails = () => {
       <h2 className="visually-hidden" id={titleId}>
         Detailed movie information
       </h2>
-      <div className="movie-dateils__main">
-        <div className="movie-details__panel">
+      <div className="movie-details__main">
+        <div className="movie-details__panel movie-details__panel--description">
           <div className="movie-details__group">
             <h3 className="movie-details__title">
               Description
@@ -123,14 +181,11 @@ const MovieDetails = () => {
             }}
           >
             {castItems.map((castItem, index) => (
-              <PersonCard
-                {...castItem}
-                key={index}
-              />
+              <PersonCard {...castItem} key={index} />
             ))}
           </Slider>
         </div>
-        <div className="movie-details__panel">
+        <div className="movie-details__panel movie-details__panel--large-gap-y">
           <header className="movie-details__panel-header">
             <h3 className="movie-details__title">
               Reviews
@@ -173,7 +228,7 @@ const MovieDetails = () => {
           </Slider>
         </div>
       </div>
-      <aside className="movie-dateils__info">
+      <aside className="movie-details__info">
         <div className="movie-details__panel">
           <div className="movie-details__groups">
             <div className="movie-details__group">
