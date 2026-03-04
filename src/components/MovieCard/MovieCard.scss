@@ -17,18 +17,16 @@
 
   &__image {
     width: 100%;
-    border-radius: var(--border-radius-l);
     border-radius: inherit;
   }
 
   &__body {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    column-gap: 8px;
+    column-gap: 3px;
   }
 
-  &__released-bage {
+  &__released-badge {
     width: 100%;
 
     &-label {

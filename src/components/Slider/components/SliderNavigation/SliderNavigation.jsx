@@ -1,6 +1,6 @@
 import './SliderNavigation.scss'
-import classNames from "classnames";
-import Button from "@/components/Button";
+import classNames from 'classnames'
+import Button from '@/components/Button'
 
 const SliderNavigation = (props) => {
   const {
@@ -15,8 +15,12 @@ const SliderNavigation = (props) => {
      * '' (default) | 'abs-bottom'
      */
     position = '',
+    /**
+     * '' (default) | 'space-between'
+     */
+    justifyContent = '',
     isHiddenMobile,
-    buttonMode = 'black-10'
+    buttonMode = 'black-10',
   } = props
 
   return (
@@ -24,6 +28,7 @@ const SliderNavigation = (props) => {
       className={classNames(className, 'slider-navigation', {
         [`slider-navigation--${mode}`]: mode,
         [`slider-navigation--${position}`]: position,
+        [`slider-navigation--${justifyContent}`]: justifyContent,
         'hidden-mobile': isHiddenMobile,
       })}
       id={id}
