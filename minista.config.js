@@ -5,7 +5,7 @@ export default defineConfig({
   root: '',
   base: '/streamvibe/',
   public: 'public',
-  out: 'docs',
+  out: 'dist',
   assets: {
     outDir: 'assets',
     outName: '[name]',
