@@ -5,7 +5,7 @@ export default defineConfig({
   root: '',
   base: '/',
   public: 'public',
-  out: 'dist',
+  out: 'docs',
   assets: {
     outDir: 'assets',
     outName: '[name]',
