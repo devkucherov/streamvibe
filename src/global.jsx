@@ -20,7 +20,7 @@ export default (props) => {
   return (
     <>
       <Head htmlAttributes={{ lang: 'en' }}>
-        <title> Stream Vibe / {title}</title>
+        <title> Stream Vibe | {title}</title>
         <script src="/src/main.js" type="module" />
         <link
           rel="apple-touch-icon"
